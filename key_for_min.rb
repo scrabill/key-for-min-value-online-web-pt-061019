@@ -4,7 +4,7 @@
 def key_for_min_value(name_hash)
 
   low_key = nil
-  low_value = 0
+  low_value = 999999999
 
   # ikea = {:chair => 25, :table => 85, :mattress => 450}
 
