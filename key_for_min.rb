@@ -31,10 +31,6 @@ def key_for_min_value(name_hash)
     end
   end
   low_key
-
-
-
-
   end
 
   # arr.sort{|x, y| x.length <=> y.length}
