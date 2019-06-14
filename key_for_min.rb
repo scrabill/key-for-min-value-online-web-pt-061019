@@ -9,7 +9,9 @@ def key_for_min_value(name_hash)
   while i < name_hash.length
 
     name_hash.each do |item,key|
-      puts "#{item} + #{i}"
+      # puts "#{item} + #{i}"
+      if name_hash[i] < name_hash[i + 1]
+        puts "WTF"
 
       i += 1
 
