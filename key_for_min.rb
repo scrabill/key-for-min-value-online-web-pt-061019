@@ -12,6 +12,8 @@ def key_for_min_value(name_hash)
       # puts "#{item} + #{i}"
       if name_hash[i] < name_hash[i + 1]
         puts "WTF"
+      else
+      end
 
       i += 1
 
